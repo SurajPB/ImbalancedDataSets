@@ -10,6 +10,7 @@
 # ApproachesToDealwithImbalancedDatasets:
 Different approaches works better in different scenarios with different datasets. We can group these appraches into
 1. Data level approach -- 
+2. Cost Sensitive Approches -- 
 
 
 
