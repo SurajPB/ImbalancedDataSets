@@ -8,6 +8,8 @@
 6. In many classification problems, a single class is composed of several sub clusters - called as within class -imbalanced where sub-clusters not containing same nunber of examples
 
 # ApproachesToDealwithImbalancedDatasets:
+Different approaches works better in different scenarios with different datasets
+1. Data leve
 
 
 
