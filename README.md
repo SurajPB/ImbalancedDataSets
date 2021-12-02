@@ -33,6 +33,7 @@ Different approaches works better in different scenarios with different datasets
       --  other confusion matrix
              -- Precision 
              -- Recall
+             -- F1-score
              -- FPR, FNR
          
  
