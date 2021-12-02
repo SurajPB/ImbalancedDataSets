@@ -9,7 +9,7 @@
 
 # ApproachesToDealwithImbalancedDatasets:
 Different approaches works better in different scenarios with different datasets. We can group these appraches into
-1. Data level approach --  Modifies Datasets 
+1. Data level approach --  Modifies Datasets (Changing the distibution of the data)
     Under Sampling 
     Over Sampling
 3. Cost Sensitive Approches -- Modifies the costs we are trying to optimize
