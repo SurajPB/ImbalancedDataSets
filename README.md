@@ -21,6 +21,23 @@ Different approaches works better in different scenarios with different datasets
     Boosting and Bagging
     With Data level approaches to moditfy the original datasets
     Combining classifiers generally improve the generalization ability
+   
+ 
+ # Metrics Used to evaluate model performance for Imbalanced datasets
+ 
+ 1. Independence of Probability threshold:
+      -- ROC - AUC
+      --  Precision  Recall curves
+ 2. Dependent of Probability threshold :
+      -- Accuracy 
+      --  other confusion matrix
+             -- Precision 
+             -- Recall
+             -- FPR, FNR
+         
+ 
+ 
+ 
     
   
 
