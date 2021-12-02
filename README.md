@@ -9,9 +9,9 @@
 
 # ApproachesToDealwithImbalancedDatasets:
 Different approaches works better in different scenarios with different datasets. We can group these appraches into
-1. Data level approach -- 
-2. Cost Sensitive Approches -- 
-3. Ensemble algothm Approaches --
+1. Data level approach --  Modifies Datasets 
+2. Cost Sensitive Approches -- Modifies the costs we are trying to optimize
+3. Ensemble algothm Approaches -- Leverages the power of building several ML algorithms to predict the minority class in an imbalaced dataset
 
 
 
