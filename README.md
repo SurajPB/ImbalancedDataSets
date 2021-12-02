@@ -9,7 +9,7 @@
 
 # ApproachesToDealwithImbalancedDatasets:
 Different approaches works better in different scenarios with different datasets. We can group these appraches into
-1. Data level approach --  Modifies Datasets (Changing the distibution of the data to have more observations from the minority class or less observations from the majoruty class)
+1. Data level approach --  Modifies Datasets (Changing the distibution of the data to have more observations from the minority class or less observations from the majoruty class, so that we reach similiar ratio each one of the classes)
     Under Sampling 
     Over Sampling
 3. Cost Sensitive Approches -- Modifies the costs we are trying to optimize
