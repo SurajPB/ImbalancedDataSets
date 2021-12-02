@@ -7,7 +7,7 @@
 5. Class separability : If the classes are overlap each other then its hard to find the rules or boundaries that separate one class to another. Linearly separable domains are not sensitive to any amount of imbalanced dataset, means if the two classes are very clearly linearly separated, then it doesnt really matter if we have imbalaned dataset
 6. In many classification problems, a single class is composed of several sub clusters - called as within class -imbalanced where sub-clusters not containing same nunber of examples
 
-# ApproachesToDealwithImbalancedDatasets:
+# Approaches To Deal with Imbalanced Datasets:
 Different approaches works better in different scenarios with different datasets. We can group these appraches into
 1. Data level approach --  Modifies Datasets (Changing the distibution of the data to have more observations from the minority class or less observations from the majoruty class, so that we reach similiar ratio each one of the classes).
     Under Sampling -- Random under sampling (decrease the number of observations from the majority at random)
