@@ -15,10 +15,12 @@ Different approaches works better in different scenarios with different datasets
     Or create new data that look like minority class like SMOTE
     Try to remove noise or remove those observations which are easy to classify, so that we let the algorithm to focus of harder instances
 3. Cost Sensitive Approches -- Modifies the costs we are trying to optimize
-   Apply higher costs to tbe misclassification of the minority class
+   Apply higher costs to the misclassification of the minority class
+   different costs to different errors -- we apply higher costs to the misclassification of an instance from the minority respect to an instance of majority. We are changing minimization formula that the model is trying to fit. 
 5. Ensemble algothm Approaches -- Leverages the power of building several ML algorithms to predict the minority class in an imbalaced dataset
     Boosting and Bagging
     With Data level approaches to moditfy the original datasets
+    Combining classifiers generally improve the generalization ability
     
   
 
