@@ -12,6 +12,7 @@ Different approaches works better in different scenarios with different datasets
 1. Data level approach --  Modifies Datasets (Changing the distibution of the data to have more observations from the minority class or less observations from the majoruty class, so that we reach similiar ratio each one of the classes).
     Under Sampling -- Random under sampling (decrease the number of observations from the majority at random)
     Over Sampling -- Random over sampling (increases the number of obserations from the minority at random)
+    Or create new data that look like minority class like SMOTE
 3. Cost Sensitive Approches -- Modifies the costs we are trying to optimize
    Apply higher costs to tbe misclassification of the minority class
 5. Ensemble algothm Approaches -- Leverages the power of building several ML algorithms to predict the minority class in an imbalaced dataset
