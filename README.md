@@ -29,7 +29,7 @@ Different approaches works better in different scenarios with different datasets
       -- ROC - AUC
       --  Precision  Recall curves
  2. Dependent of Probability threshold :
-      -- Accuracy 
+      -- Accuracy (Is not good while evaluating imbalanced datasset)
       --  other confusion matrix
              -- Precision 
              -- Recall
