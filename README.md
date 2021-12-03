@@ -30,6 +30,14 @@ Different approaches works better in different scenarios with different datasets
       --  Precision  Recall curves
  2. Dependent of Probability threshold :
       -- Accuracy (Is not a good metric while evaluating imbalanced datasset : (No. of Correct Prediction / Total no. of predictions)   : as minority class only have less numbers compared to majority class -- model always predicts majority class)
+      # Accuracy.ipynb
+      
+      Loading the data with pandas
+      data=pd.read_csv('sample.csv')
+      change the ouput label by map function and labelled as target, changing as -1 to 0 and 1 to 1 by the following function
+      data['target']=data['target'].map({-1:0,1:1})
+      
+      
       --  other confusion matrix
              -- Precision 
              -- Recall
